@@ -1,5 +1,5 @@
 extern crate aoc2019;
-use aoc2019::{answer, config, run};
+use aoc2019::{config, run};
 
 #[test]
 fn test_day1a() {
@@ -7,7 +7,7 @@ fn test_day1a() {
         problem: "day1a".to_string(),
         filename: "./input/day1".to_string(),
     };
-    assert_eq!(answer::Answer::I(3287620), run::run(&config).unwrap());
+    assert_eq!(3287620, run::run(&config).unwrap());
 }
 
 #[test]
@@ -16,5 +16,5 @@ fn test_day1b() {
         problem: "day1b".to_string(),
         filename: "./input/day1".to_string(),
     };
-    assert_eq!(answer::Answer::I(4928567), run::run(&config).unwrap());
+    assert_eq!(4928567, run::run(&config).unwrap());
 }
