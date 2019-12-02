@@ -9,6 +9,8 @@ pub fn run(config: &config::Config) -> io::Result<answer::Answer> {
     let solution = match config.problem.as_ref() {
         "day1a" => day1::day1a,
         "day1b" => day1::day1b,
+        "day2a" => day2::day2a,
+        "day2b" => day2::day2b,
         _ => day1::day1a,
     };
     solution(&mut reader)
