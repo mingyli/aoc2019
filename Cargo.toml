@@ -17,6 +17,7 @@ path = "src/bin.rs"
 [dependencies]
 cached = "0.11.0"
 chrono = "0.4.10"
+im = "14.0.0"
 io = "0.0.2"
 itertools = "0.8.2"
 regex = "1.3.1"
