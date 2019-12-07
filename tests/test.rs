@@ -90,3 +90,21 @@ fn test_day5b() {
     };
     assert_eq!(3176266, run::run(&config).unwrap());
 }
+
+#[test]
+fn test_day6a() {
+    let config = config::Config {
+        problem: "day6a".to_string(),
+        filename: "./input/day6".to_string(),
+    };
+    assert_eq!(271151, run::run(&config).unwrap());
+}
+
+#[test]
+fn test_day6b() {
+    let config = config::Config {
+        problem: "day6b".to_string(),
+        filename: "./input/day6".to_string(),
+    };
+    assert_eq!(388, run::run(&config).unwrap());
+}

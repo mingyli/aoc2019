@@ -17,6 +17,8 @@ pub fn run(config: &config::Config) -> io::Result<answer::Answer> {
         "day4b" => day4::day4b,
         "day5a" => day5::day5a,
         "day5b" => day5::day5b,
+        "day6a" => day6::day6a,
+        "day6b" => day6::day6b,
         _ => day1::day1a,
     };
     solution(&mut reader)
